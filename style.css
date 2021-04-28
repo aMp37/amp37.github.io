@@ -1,0 +1,89 @@
+html{
+    font-size: 67.5%;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+
+header {
+    color: white;
+    background-color: black;
+    height: 18rem;
+}
+
+.header-title {
+    padding-top: 2rem;
+    margin-left: 5rem;
+}
+
+.header-title h1 {
+    font-size: 3rem;
+}
+
+.header-title h2{
+    margin-left: 5rem;
+}
+
+.header-nav{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header-nav-home {
+    margin-left: 50%;
+}
+
+section {
+    min-height: 30rem;
+    padding: 2rem;
+}
+
+section h1 {
+    font-size: 4rem;
+}
+
+section p {
+    font-size: 1.5rem;
+}
+
+.about-us-first {
+    background-color: #e0e0e0;
+}
+
+.about-us-first p {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us-first img {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.about-us-experience {
+    background-color: #d3d3d3;
+}
+
+.about-us-experience p {
+    display: flex;
+}
+
+.about-us-experience  ul {
+    font-size: 1.5rem;
+    color: #303030;
+}
+
+.about-us-experience img{
+    width: 10rem;
+    border-radius: 1.2rem;
+}
+
+.about-us-experience h1{
+    text-align: right;
+}
